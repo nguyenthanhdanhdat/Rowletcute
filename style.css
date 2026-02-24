@@ -15,7 +15,10 @@
   flex: 70%;
   background-color: white;
 }
-.footer{NgheAn}
+.footer{
+  flex: 5%;
+  background-color: darkgray;
+}
 
 
 
