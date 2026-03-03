@@ -7,6 +7,7 @@
   flex: 40%;
   background-color: lightgray;
   background: url("images/chapmcaihe.png") center/100% 100% ;
+  aspect-ratio: 1/6;
 } 
 .menu{
   flex: 5%;
