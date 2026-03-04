@@ -4,7 +4,7 @@
   height: 100vh;
 }
 .header{
-  flex: 15%;
+  flex: 20%;
   background-color: lightgray;
   background: url("images/1772591890762.png") center/100%  ;
   aspect-ratio: 6/1;
@@ -22,7 +22,7 @@
   color: black;
 }
 .content{
-  flex: 80%;
+  flex: 75%;
   background-color: white;
 }
 .content iframe{
