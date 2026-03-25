@@ -1,53 +1,23 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng ký Hội thao - Hình 6</title>
-    <style>
-        /* Một chút CSS để biểu mẫu gọn gàng hơn */
-        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
-        form { border: 1px solid #ccc; padding: 20px; max-width: 500px; border-radius: 8px; }
-        h2 { color: #2c3e50; }
-        .input-group { margin-bottom: 15px; }
-        input[type="text"] { width: 100%; padding: 8px; margin-top: 5px; box-sizing: border-box; }
-        .btn-group { margin-top: 20px; }
-        input[type="submit"], input[type="reset"] { padding: 10px 20px; cursor: pointer; }
-    </style>
-</head>
-<body>
-
-    <h2>Đăng kí tham gia Hội thao</h2>
-    
+  <head>
+    <h1>Đăng ký tham gia hội thao</h1>
+    <meta charset="utf-8">
+  </head>
+  <body>
     <form action="B7-NV2.html">
-        <div class="input-group">
-            <label for="txtTen">Họ và tên:</label>
-            <input type="text" id="txtTen" name="txtTen" placeholder="Nhập họ tên của bạn...">
-        </div>
-
-        <div class="input-group">
-            <label for="txtEmail">Địa chỉ email:</label>
-            <input type="text" id="txtEmail" name="txtEmail" placeholder="example@gmail.com">
-        </div>
-
-        <div class="input-group">
-            <label>Khối lớp:</label><br>
-            <input type="radio" id="l10" name="rdLop" value="10"> <label for="l10">Lớp 10</label>
-            <input type="radio" id="l11" name="rdLop" value="11"> <label for="l11">Lớp 11</label>
-            <input type="radio" id="l12" name="rdLop" value="12"> <label for="l12">Lớp 12</label>
-        </div>
-
-        <div class="input-group">
-            <label>Tham dự môn:</label><br>
-            <input type="checkbox" id="bb" name="chkMon" value="BongBan"> <label for="bb">Bóng bàn</label><br>
-            <input type="checkbox" id="cl" name="chkMon" value="CauLong"> <label for="cl">Cầu lông</label><br>
-            <input type="checkbox" id="cv" name="chkMon" value="CoVua"> <label for="cv">Cờ vua</label>
-        </div>
-
-        <div class="btn-group">
-            <input type="submit" value="Đăng kí">
-            <input type="reset" value="Huỷ bỏ">
-        </div>
+      <label>Họ và tên:<input type = "text" name= "txtTen"></label><br>
+      <label>Địa chỉ email:<input type ="email" name= "txtTen"></label><br>
+      <input type = "radio" name = "optTime">Lớp 10
+      <input type = "radio" name = "optTime">Lớp 11
+      <input type = "radio" name = "optTime">Lớp 12
+      <p>Tham dự môn</p>
+      <input type = "checkbox" name = "chkBongDa">Bóng đá<br>
+      <input type = "checkbox" name = "chkCauLong">Cầu lông<br>
+      <input type = "checkbox" name = "chkCoVua">Cờ vua<br>
+      <input type = "submit" name = "cmd" value="Đăng ký">
+      <input type = "submit" name = "cmd" value="Hủy bỏ">
     </form>
-
+  </body>
+</html>
 </body>
 </html>
